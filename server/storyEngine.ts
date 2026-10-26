@@ -379,28 +379,28 @@ export function buildStoryArcPlan(
     slideType: 'comparison',
     layout: 'comparison_table',
     content: {
-      headline: 'Why We Win: A Distinct Structural Advantage',
-      subheadline: 'Traditional legacy platforms are slow, complex, and prohibitively expensive.',
+      headline: 'Competitive comparison — evidence required',
+      subheadline: 'Compare alternatives only with sourced, like-for-like evidence.',
       badge: '05 / COMPETITIVE MATRIX',
-      competitorNames: ['Legacy Incumbents & Manual Systems'],
+      competitorNames: ['[Add verified competitor names]'],
       comparisonRows: [
         {
-          feature: 'Time to First Value',
+          feature: 'Time to first value (measured)',
           us: '[Add measured result]',
           competitors: '[Add sourced competitor benchmark]',
           notes: 'Provide comparable evidence and explain the benchmark method.'
         },
         {
-          feature: 'Autonomous Self-Correction',
-          us: true,
-          competitors: false,
-          notes: 'Describe tested behavior; avoid implying exclusivity without evidence.'
+          feature: 'Automation and correction capability',
+          us: '[Describe implemented behavior]',
+          competitors: '[Add sourced competitor evidence]',
+          notes: 'Do not imply autonomous correction or exclusivity unless tested and documented.'
         },
         {
-          feature: 'Enterprise Data Isolation',
-          us: true,
-          competitors: '[Documented competitor evidence required]',
-          notes: 'Only claim a private deployment or zero-retention option if implemented, tested, and contractually supported.'
+          feature: 'Data isolation and deployment options',
+          us: '[Document implemented controls and deployment options]',
+          competitors: '[Add sourced competitor evidence]',
+          notes: 'Do not claim private deployment or zero retention unless implemented, tested, and contractually supported.'
         },
         {
           feature: 'Total Cost of Ownership (TCO)',
